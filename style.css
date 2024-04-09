@@ -255,3 +255,134 @@ li{
   overflow: hidden;
   position: relative; 
 }
+/*contact page styles*/
+.contact-form{
+  width: 450px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: white;
+}
+input{
+  padding-left: 10px;
+  color: #AAAAAA;
+}
+.contact-me-box{
+  height: 150px;
+  font-size: 30px;
+  color: rgb(194, 146, 154);
+  padding-top: 10px;
+}
+.contact-me{
+  margin-top: 10px;
+  font-family: "playfair display";
+}
+.name-box{
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 450px;
+}
+.name{
+  width: 200px;
+  height: 50px;
+  background-color: #222222;
+}
+.email-box{
+  height: 60px;
+  width: 450px;
+}
+.email{
+  width: 450px;
+  height: 50px;
+  background-color: #222222;
+}
+.description-box{
+  width: 450px;
+  height: 150px;
+}
+.description{
+  width: 450px;
+  height: 140px;
+  background-color: #222222;
+}
+.contact-arrow-box{
+  height: 100px;
+  justify-content: center;
+  align-content:flex-end
+}
+.click{
+  height: 40px;
+  width: 200px;
+  background-color: rgb(194, 146, 154);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*contact page foote*/
+.footer-background{
+  margin-top: 250px;
+  background-color: rgb(26, 24, 24);
+  display: flex;
+  flex: 1 1 2;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 250px;
+}
+.contact-navigation{
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.contact-follow{
+  display: flex;
+  flex-direction: column;
+}
+.nav-footer{
+  color: #FFFFFF;
+  font-family: "playfair display";
+  margin-bottom: 20px;
+}
+.follow{
+  font-size: 30px;
+  color: white;
+}
+.contact-icon-image{
+  scale: 0.6;
+}
+.contact-subscribe{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-email{
+  background-color: #222222;
+  height: 50px;
+  width: 450px;
+}
+.grey-text{
+  color: #AAAAAA;
+  font-family: "Monsterrat";
+}
+.elly{
+  height: 140px;
+  background-color: rgb(26, 24, 24);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.h-line{
+  height: 2px;
+  width: 80%;
+  background-color: #AAAAAA;
+}
+.elly-antya{
+  margin-top: 10px;
+  font-size: 25px;
+  font-family: "Zapfino";
+  color: #AAAAAA;
+}
