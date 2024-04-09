@@ -326,7 +326,7 @@ input{
 /*contact page foote*/
 .footer-background{
   margin-top: 250px;
-  background-color: green;
+  background-color: rgb(26, 24, 24);
   display: flex;
   flex: 1 1 2;
   justify-content: space-evenly;
@@ -337,16 +337,15 @@ input{
   font-size: 30px;
   display: flex;
   flex-direction: column;
-  gap: 50px;
 }
 .contact-follow{
   display: flex;
   flex-direction: column;
 }
-/*footeris navigaciashi ver gavatetre*/
-li{
-  margin-bottom: 15px;
+.nav-footer{
+  color: #FFFFFF;
   font-family: "playfair display";
+  margin-bottom: 20px;
 }
 .follow{
   font-size: 30px;
@@ -371,7 +370,7 @@ li{
 }
 .elly{
   height: 140px;
-  background-color: green;
+  background-color: rgb(26, 24, 24);
   display: flex;
   flex-direction: column;
   align-items: center;
