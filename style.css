@@ -47,11 +47,11 @@ li{
     scale: 0.8;
 }
 .page-1{
-    width: 100%;
     max-height: 1100px;
     font-family: "playfair display";
 }
 .page-1-container{
+  overflow-x: hidden;
     max-width: 1400px;
     max-height: 1100px;
     margin: 0 auto;
@@ -323,7 +323,7 @@ input{
   justify-content: center;
   align-items: center;
 }
-/*contact page foote*/
+/*contact page footer*/
 .footer-background{
   margin-top: 250px;
   background-color: rgb(26, 24, 24);
