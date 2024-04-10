@@ -347,6 +347,7 @@ input{
 }
 .contact-icon-image{
   scale: 0.6;
+  margin-left:-19px;
 }
 .contact-subscribe{
   display: flex;
